@@ -1,0 +1,63 @@
+body, h1, h2, p, ol {
+    background-image: linear-gradient(yellow,plum);
+    text-shadow: 1px 1px 1px white;
+    color: black;
+    letter-spacing: 3px;
+    font-family: "Indie Flower";
+    font-size: 1.5rem;
+    margin: 15px 15px 45px 15px;
+    text-align: center;
+}
+ol {
+    text-align: left;
+}
+#myButton {
+    color: yellow;
+    font-family: "Fresca", cursive;
+    font-size: 1rem;
+    border: 1px black solid;
+    outline: 2px yellow solid;
+    font-size: 1.5rem;
+    padding: 5px;
+    background-color: purple;
+    text-align: center;
+}
+#demo {
+    color: red;
+    font-size: 1.5rem;
+    font-family: "Fresca", cursive;
+    width: 30%;
+    height: 80px;
+    margin: 45px 35% 15px 35%;
+    text-align: center;
+}
+#input, #input2, #input4 {
+    width: 20%;
+    color: yellow;
+    font-family: "Fresca", cursive;
+    text-align: center;
+    font-size: 1rem;
+    border: 1px black solid;
+    outline: 2px yellow solid;
+    font-size: 1.5rem;
+    padding: 5px;
+    background-color: purple;
+}
+#myBtn2, #myBtn3, #myBtn4 {
+    color: yellow;
+    font-family: "Fresca", cursive;
+    font-size: 1.5rem;
+    border: 1px black solid;
+    outline: 2px yellow solid;
+    padding: 5px;
+    background-color: purple;
+    text-align: center;
+}
+#demo1, #demo2, #demo3 {
+    color: red;
+    font-size: 1.5rem;
+    font-family: "Fresca", cursive;
+    width: 30%;
+    height: 80px;
+    margin: 45px 35% 15px 35%;
+}

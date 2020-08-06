@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" Unicode="U+1F334, UTF-8: F0 9F 8C B4" Unicode= "U+1F332, UTF-8: F0 9F 8C B2" Unicode= "U+00A9"  Unicode="U+00A9, UTF-8: C2 A9" Unicode="U+1F440, UTF-8: F0 9F 91 80">
+    <title>Intro to Logarithms</title>
+    <link HREF="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Shadows+Into+Light|Fresca" rel="stylesheet">
+    <link rel="stylesheet" HREF="./styles.css">
+    <meta name="description" content="Logarithms">
+    <meta name="keywords" content="log, logarithm">
+    <meta name="author" content="JK Williams">
+</head>
+<body>
+    <h1>
+        Intro to Logarithms
+    </h1>
+    <h2>
+        To understand how to work with Logarithms you will first need to review concepts associated with working with exponents. Logarithms are exponents that are decimal values and not whole numbers as you are used to working with in the past.
+    </h2>
+    <p>
+        For example, you may remember that a number, called a Base, when it is raised up to a power, called an Exponent, looks something like this: 
+        <ol>
+            <li>
+                If 3 is your base and 4 is the exponent, then we would write the expression as 3<sup>4</sup>.
+            </li>
+            <li>
+                If 5 is the base and the exponent is 3, then we would write the expression as 5<sup>3</sup>. 
+            </li>
+        </ol>
+    </p>
+    <div>
+        <p>
+            To calculate the answer, multiply two numbers at a time as you work left to right.
+            <br>
+            For problem #1, the answer is <br>
+            3 x 3 x 3 x 3 => 9 x 3 x 3 => 27 x 3 = 81. 
+            <br>
+            For problem #2, the answer is 
+            <br>5 x 5 x 5 => 25 x 5 = 125
+        </p>
+    </div>
+    <p>
+        What if you were to try 3<sup>2.5</sup>? How would that work?
+        When working with decimal exponents, you will be working with what Mathematicians call Logarithms, or just "Logs" for short. 
+    </p>
+    <p>
+        And while 3<sup>2.5</sup> could be calculated by hand,
+        with technology and a calculator, we can get the answer quite easily. 
+    </p>
+    <p>
+        To raise a base to any exponent value, including decimals, look for the key on your calculator called the "caret" key. It is the symbol that looks like this: ^ 
+        On your calculator, type "3 ^ 2.5 = enter", and your answer should be 15.5884572681. Rounding to two decimal places the final answer would be 15.59.
+    </p>
+    <p>
+        To round, use your calculator and remember that if we are going to round to 2 decimal places, that means we will keep two numbers to the right of the decimal, regrdless of how many numbers are to the right of the decimal to start with. 
+        <br>
+        Circle the number, keeping two numbers to the right of the decimal.  Then look at the last number in your circle. If the number to its right is a 0, 1, 2, 3, or 4, leave the answer as the circled answer. If the 3rd decimal number is a 5, 6, 7, 8, or 9, then we round the last number on the right up one number. 
+    </p>
+    <p>
+        Therefore, since I would circle 15.58, and the third decimal place in 15.5884572681 is an 8, 15.58 becomes 15.59. Rounding the last number up one. 
+    </p>
+    <p>
+        Rule: If an Integer (positive or negative number) is raised to a power and the answer results in a decimal value, then the exponent is also a decimal.<br> 
+        <br> A whole number raised to a power that is a whole number, results in a whole number answer.
+    </p>  
+    <p>
+        Try this problem with your calculator, then check your answer.
+        5<sup>4.7</sup>= ?
+    </p>
+    <input type="text" id="input">
+    <button type="submit" id="myBtn2" onclick="myCalc2()">Submit</button>
+    <p id="demo1">The answer is</p>
+    <p>
+        Try this problem with your calculator, then check your answer.
+        3<sup>5.6</sup>= ?
+    </p>
+    <input type="text" id="input2">
+    <button type="submit" id="myBtn3" onclick="myCalc3()">Submit</button>
+    <p id="demo2">The answer is</p>
+    <p>
+        Try this problem with your calculator, then check your answer.
+        8<sup>4.6</sup>= ?
+    </p>
+    <input type="text" id="input4">
+    <button type="submit" id="myBtn4" onclick="myCalc4()">Submit</button>
+    <p id="demo3">The answer is</p>
+    <footer>©2020 All Things Math<br>All Rights Reserved
+</footer>  
+    <script src="script.js"></script>
+</body>
+</html> 
